@@ -17,7 +17,7 @@ client.categories = fs.readdirSync("./commands/");
 client.on('ready', () => {
     console.log(`${client.user.username} ✅`)
 });
-// hello guys welcome to a new coding tutorial, this time I got a new command handler for you guys :) github link in description bye!
+
 client.on('message', async message =>{
     if(message.author.bot) return;
     if(!message.content.startsWith(prefix)) return;
